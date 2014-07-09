@@ -3,9 +3,8 @@ jersey-prototype
 
 Jersey on Grizzly with Hibernate
 
-Benchmark
-ab -n 10000 -c 70 <url>
-
+```
+Benchmark: ab -n 10000 -c 70 <url>
 
 Simple string:
 
@@ -25,5 +24,5 @@ Requests per second:    6531.65 [#/sec] (mean)
 Time per request:       10.717 [ms] (mean)
 Time per request:       0.153 [ms] (mean, across all concurrent requests)
 Transfer rate:          529.42 [Kbytes/sec] received
-
+```
 
